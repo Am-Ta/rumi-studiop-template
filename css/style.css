@@ -75,7 +75,6 @@ button {
 .btn {
     padding: .5em 1em;
     border-bottom: 3px solid rgb(var(--accent-color));
-    border-radius: 0.2em 0.2em 0 0;
     display: inline-block;
     font-weight: 300;
     text-decoration: none;
@@ -200,7 +199,11 @@ body {
 .nav .nav__item.active:before,
 .nav .nav__item:hover:before {right: 0;}
 
-.logo {display: none;}          /* ? logo */
+.logo {order: -1;}
+.logo .logo__img {
+    display: block;
+    margin: auto;
+}
 
 /* 
     * MEDIA - MIN-WIDTH : 40EM | 640 px
@@ -227,11 +230,7 @@ body {
     .logo {
         display: block;
         flex: 1 0 0;
-    }
-
-    .logo .logo__img {
-        display: block;
-        margin: auto;
+        order: 1;
     }
 }
 
