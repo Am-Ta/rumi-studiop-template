@@ -370,7 +370,9 @@ body {
 }
 
 .form__item input:focus + label span,
-.form__item textarea:focus + label span {
+.form__item input:valid + label span,
+.form__item textarea:focus + label span,
+.form__item textarea:valid + label span {
     top: 1px;
     left: 1px;
     font-size: .8em;
@@ -457,6 +459,16 @@ body {
     .portfolio .portfolio__item {
         width: 40vw;
     }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;  
+    }
+
+    .footer .footer__left,
+    .footer .footer__right {
+        width: 40vw;
+    }
 }
 
 /* 
@@ -472,4 +484,10 @@ body {
     .portfolio .portfolio__item {
         width: 35vw;
     }
+
+    .footer .footer__left {
+        width: 30vw;
+    }
+
+    .footer .footer__right {width: 50vw;}
 }
