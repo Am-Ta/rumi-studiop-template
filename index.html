@@ -103,20 +103,20 @@
         <footer class="footer">
             <div class="footer__left">
                 <form action="#" method="GET" class="form" >
-                    <div>
-                        <label>name</label>
-                        <input type="text" id="name" class="form__item" name="name">
+                    <div class="form__item">
+                        <input type="text" id="name"  name="name">
+                        <label><span>name</span></label>
+                    </div>
+                    <div class="form__item">
+                        <input type="text"  name="email">
+                        <label><span>email</span></label>
+                    </div>
+                    <div class="form__item">
+                        <textarea name="message"></textarea>
+                        <label><span>message</span></label>
                     </div>
                     <div>
-                        <label>email</label>
-                        <input type="text" class="form__item" name="email">
-                    </div>
-                    <div>
-                        <label>message</label>
-                        <textarea name="message"class="form__item"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit" class="btn">Send</button>
+                        <button type="submit" class="btn large">Send</button>
                     </div>
                 </form>
             </div>
