@@ -9,7 +9,7 @@ ___
 * [Normalize.css](http://necolas.github.io/normalize.css/)
     * A modern, HTML5-ready alternative to CSS resets.
 ___
-* I used the Dosis font for document webpage.
+* I used the Josefin Sans font for document webpage.
     * [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
 ___
 * Color Schemes
