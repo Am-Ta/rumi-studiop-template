@@ -74,17 +74,20 @@ button {
 */
 .btn {
     padding: .5em 1em;
+    border: none;
     border-bottom: 3px solid rgb(var(--accent-color));
     display: inline-block;
     font-weight: 300;
     text-decoration: none;
     text-transform: capitalize;
     color: rgb(var(--white));
+    background-color: transparent;
     outline: none;
     transition: all .3s ease;
     position: relative;
     z-index: 0;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .btn:before,
@@ -307,6 +310,9 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+/* 
+    * FOOTER
+*/
 
 
 /* 
