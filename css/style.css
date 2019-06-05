@@ -477,7 +477,7 @@ body {
         justify-content: space-around;
     }
 
-    .services > .services__item {width: 40vw;}
+    .services .services__item {width: 40vw;}
 
     .portfolio .portfolio__main {               /* ? portfolio */
         flex-direction: row;
